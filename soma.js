@@ -25,9 +25,15 @@ function transferir(conta1, conta2, valor)
 }
 
 // Exercicio 5
-function SaldoMaiorValor(Deposito)
-{
-    return Deposito
+function SaldoMaiorValor(Deposito) {
+    let saldo = 0;
+    saldo += Deposito;
+    return saldo;
+}
+
+
+function Juros() {
+    return 0.1 + 0.2
 }
 
 module.exports = 
@@ -36,5 +42,6 @@ module.exports =
     transferir,
     Deposito,
     Saque,
-    SaldoMaiorValor
+    SaldoMaiorValor,
+    Juros
 }
